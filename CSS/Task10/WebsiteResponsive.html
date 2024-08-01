@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- using tailwind CSS media queries to make website responsive-->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    .img1 {
+        width: 300px;
+        height:250px;
+        margin-left:-10px;
+    }
+
+    .img2 {
+        width: 180px;
+    }
+
+    .img3 {
+        width: 150px;
+    }
+
+    /* .container{
+        display:flex;
+        justify-content:space-between;
+    } */
+
+    .text {
+        color: rgb(20, 132, 177);
+        font-size: medium;
+        margin-top: -5px;
+    }
+
+    .checked {
+        color: orange;
+    }
+
+    .rate {
+        width: 17px;
+        height: 15px;
+        margin-top: -1%;
+        margin-left: 16%;
+    }
+
+    .rating {
+        display: flex;
+    }
+
+    .discount {
+        border: solid;
+        background-color: skyblue;
+        border: none;
+        width: 70px;
+        height: 30px;
+        padding: 2px;
+    }
+    .first{
+        margin-left:10px;
+    }
+</style>
+
+<body>
+    <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+        <div class="first">
+            <img class="img1" src="https://m.media-amazon.com/images/I/41q6vQUdlaL._SY445_SX342_QL70_FMwebp_.jpg">
+            <p class="text">LG 7 kg 5 Star Semi-</p>
+            <p class="text">Automatic Top Loading</p>
+            <p class="text">Washing Machine</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;font-size: small;">276</span>
+            </div>
+
+            <p>₹<b>12,739.00</b></p>
+            <p>M.R.P:<del>₹13,190.00</del>(3% off)</p>
+            <span class="discount">Save 3%</span>
+            <span>on 2 + units</span>
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+
+        </div>
+        <div>
+            <img class="img2" src="https://m.media-amazon.com/images/I/51k2BlrTG5L._AC_UY218_.jpg">
+            <p class="text">LG 7 kg 5 Star Semi-</p>
+            <p class="text">Automatic Top Loading</p>
+            <p class="text">Washing Machine</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;">2,267</span>
+            </div>
+            <p>₹<b>11,490.00</b></p>
+            <p>M.R.P:<del>₹16,090.00</del>(29% off)</p>
+            <span class="discount">Save 28%</span>
+            <span>on 2 + units</span>
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+        </div>
+        <div>
+            <img class="img3" src="https://m.media-amazon.com/images/I/41jVYL2zNrL._AC_UY218_.jpg">
+            <p class="text">Whirlpool 7.5 kg 5 Star</p>
+            <p class="text">Inverter Fully-Automatic</p>
+            <p class="text">Top Loading Washing...</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;">650</span>
+            </div>
+            <p>₹<b>24,300.00</b></p>
+            <p>M.R.P:<del>₹31,950.00</del>(23% off)</p>
+            <span class="discount">Save 24%</span>
+            <span>on 2 + units</span>
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+        </div>
+        <div>
+            <img class="img3" src="https://m.media-amazon.com/images/I/71Ll3PNJcXL._AC_UY218_.jpg">
+            <p class="text">Whirlpool 7.5 kg 5 Star</p>
+            <p class="text">Fully-Automatic Top</p>
+            <p class="text">Loading Washing...</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;">1,396</span>
+            </div>
+            <p>₹<b>22,290.00</b></p>
+            <p>M.R.P:<del>₹28,650.00</del>(22% off)</p>
+            <!-- <span class="discount">Save 3%</span>
+            <span>on 2 + units</span> -->
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+        </div>
+        <div>
+            <img class="img3" src="https://m.media-amazon.com/images/I/41jVYL2zNrL._AC_UY218_.jpg">
+            <p class="text">Whirlpool 7.5 kg 5 Star</p>
+            <p class="text">Fully-Automatic Top</p>
+            <p class="text">Loading Washing...</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;">128</span>
+            </div>
+            <p>₹<b>21,990.00</b></p>
+            <p>M.R.P:<del>₹21,990.00</del>(18% off)</p>
+            <span class="discount">Save 18%</span>
+            <span>on 2 + units</span>
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+        </div>
+        <div>
+            <img class="img3" src="https://m.media-amazon.com/images/I/71YUsr5ZlNL._SL1500_.jpg">
+            <p class="text">Whirlpool 7.5 kg 5 Star</p>
+            <p class="text">Fully-Automatic Top</p>
+            <p class="text">Loading Washing...</p>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span><img class="rate" src="https://i.postimg.cc/kX4KbDZD/images-removebg-preview.png"></span>
+                <span style="color:skyblue;margin-top:-3%;margin-left:5px;">824</span>
+            </div>
+            <p>₹<b>20,310.00</b></p>
+            <p>M.R.P:<del>₹22,310.00</del>(8% off)</p>
+            <span class="discount">Save 9%</span>
+            <span>on 2 + units</span>
+            <img src="https://i.postimg.cc/qvTs7KSK/images-removebg-preview-1.png" width="70px">
+        </div>
+
+    </div>
+</body>
+
+</html>
